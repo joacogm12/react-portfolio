@@ -1,0 +1,20 @@
+footer {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 0;
+}
+
+footer h4 {
+    margin: 0;
+    color: gray;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons a svg {
+    color: gray;
+}

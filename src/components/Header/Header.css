@@ -1,0 +1,15 @@
+header {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 0%;
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: gray;
+}

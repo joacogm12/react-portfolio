@@ -1,0 +1,27 @@
+.about-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.about-me {
+    padding: 20px 10px;
+    text-align: center;
+    margin-left: 10%;
+    background-color: #FC5457;
+    box-shadow: 10px 10px 0px;
+    max-width: 800px;
+}
+
+.about-me h1 {
+    margin: 0;
+    text-shadow: 12px 3px black;
+    font-size: 9rem;
+}
+
+.about-me p {
+    margin: 5px 10px;
+    font-size: 1.4rem;
+}
