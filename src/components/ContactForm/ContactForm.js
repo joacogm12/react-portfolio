@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './ContactForm.css'
 
 export default function ContactSection() {
     const [name, setName] = useState('');
@@ -9,7 +10,7 @@ export default function ContactSection() {
             <div className='from-container'>
                 <div className="form-group">
                     <label htmlFor="name">
-                        Your Name
+                        <h2>Your Name</h2>
                         <input
                             type="text"
                             id="name"
@@ -22,7 +23,7 @@ export default function ContactSection() {
                 </div>
                 <div className="form-group">
                     <label htmlFor="email">
-                        Your Email
+                        <h2>Your Mail</h2>
                         <input
                             type="email"
                             id="email"
@@ -35,7 +36,7 @@ export default function ContactSection() {
                 </div>
                 <div className="form-group">
                     <label htmlFor="message">
-                        Your message
+                        <h2>Your message</h2>
                         <textarea
                             type="text"
                             id="message"

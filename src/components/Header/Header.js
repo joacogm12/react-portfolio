@@ -6,9 +6,9 @@ export default function Header() {
     return (
         <>
             <header>
-                <a href='resume'>Download Resume</a>
+                <a target='_blank' href={resume}>Download Resume</a>
                 <br />
-                <span>J</span>oaco<span>T</span>aco
+                JoacoTaco
             </header>
         </>
     )

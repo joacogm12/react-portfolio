@@ -11,9 +11,6 @@
     font-size: smaller;
 }
 
-.nav :last-child {
-    color: white;
-}
 
 .nav a {
     display: inline-block;
